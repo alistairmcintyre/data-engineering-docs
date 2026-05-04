@@ -26,4 +26,4 @@ Note: spark.emr-serverless.executor.disk is typically capped at 200GB, but when 
 | Vertical | `spark.executor.memoryOverhead` | `12g` | Off-heap memory per executor |                                                                                                                        
 | Vertical | `spark.emr-serverless.executor.disk` | `2000G` | Shuffle disk ceiling per executor |                                                                                                            
 | Vertical | `spark.emr-serverless.executor.disk.type` | `shuffle_optimized` | High-IOPS NVMe disk tier (10× ceiling vs Standard) |                                                                          
-| Horizontal | `spark.dynamicAllocation.maxExecutors` | `100` (us-east-1) | Max concurrent executors |   
+| Horizontal | `spark.dynamicAllocation.maxExecutors` | `100` | Max concurrent executors |   
